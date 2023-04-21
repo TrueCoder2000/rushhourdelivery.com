@@ -26,7 +26,7 @@ function enviarMensaje() {
     var message = document.querySelector('#mensaje').value
 
     if (fullname !== "" && email !== "" && message !== "") {
-        let url = "https://api.whatsapp.com/send?phone=3179600276&text=Fullname: %0A" + fullname + "%0A%0AEmail: %0A" + email + "%0A%0AMessage: %0A" + message + "%0A";
+        let url = "https://api.whatsapp.com/send?phone=8508617366&text=Fullname: %0A" + fullname + "%0A%0AEmail: %0A" + email + "%0A%0AMessage: %0A" + message + "%0A";
 
         window.open(url);
 
